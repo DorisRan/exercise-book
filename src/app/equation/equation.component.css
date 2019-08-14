@@ -1,0 +1,25 @@
+.factor{
+  display: inline-block;
+  width: 2em;
+}
+
+.resultInput {
+    border: 0ch;
+    width: 4em;
+    color: lightsalmon;
+    text-align: center;
+    outline:medium;
+}
+
+.questionmark {
+  width: 1em;
+  padding-left: 0.5em;
+  text-align: center;
+  color: red;
+}
+
+.correctmark{
+  width: 1em;
+  height: 1em;
+  padding-left: 0.5em;
+}

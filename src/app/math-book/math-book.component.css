@@ -1,0 +1,34 @@
+.div-inline {
+    width: 25%; 
+    float:left;
+} 
+.checkbtn {
+    width: 7%;
+    margin-right: 2%; 
+    float: right;
+}
+
+.resetbtn {
+    width: 7%;
+    margin-right: 6%; 
+    float: right;
+}
+
+hr {
+    width: 95%;
+    display: block;
+}
+
+.clock{
+    width: 1em;
+}
+
+.timer{
+    cursor: pointer;
+    width: 75%;
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    vertical-align: center;
+    color: red;
+}
