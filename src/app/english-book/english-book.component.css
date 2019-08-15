@@ -1,0 +1,14 @@
+.area {
+    display:inline-block;
+    width: 28%;
+    vertical-align: top;
+} 
+
+.title {
+    text-align: left;
+}
+
+.content{
+    margin-top: 0.5em;
+    list-style-type: none;
+}

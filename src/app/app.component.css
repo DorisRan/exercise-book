@@ -1,7 +1,7 @@
-.chrhyme{
+.subpanel {
     font: 1.3em kaiti;
     color: gray;
-    margin-top: 2em;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding: 1% 2% 1% 2% ;
+    border: 1px lightgray solid;
+    border-radius: 5px;
 }

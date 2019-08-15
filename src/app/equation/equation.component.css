@@ -1,25 +1,27 @@
 .factor{
   display: inline-block;
-  width: 2em;
+  width: 6%;
+  margin-right: 6%;
+  text-align: left;
 }
 
 .resultInput {
     border: 0ch;
-    width: 4em;
+    width: 16%;
     color: lightsalmon;
     text-align: center;
     outline:medium;
 }
 
 .questionmark {
-  width: 1em;
-  padding-left: 0.5em;
+  width: 8%;
+  padding-left: 5%;
   text-align: center;
   color: red;
 }
 
 .correctmark{
-  width: 1em;
+  width: 8%;
   height: 1em;
-  padding-left: 0.5em;
+  padding-left: 5%;
 }

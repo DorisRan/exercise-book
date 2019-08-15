@@ -1,8 +1,6 @@
-<div class="div-inline" *ngFor="let euqColumn of equColumns">
+<div class="area" *ngFor="let euqColumn of equColumns">
     <app-equation-panel [equations]="euqColumn"></app-equation-panel>
 </div> 
-
-<hr/>
-<div class="timer" (click)="startTimer()"><img class="clock" src="../../assets/timer.png"/> {{timepiece}}</div>
-<button class="resetbtn" (click)="doReset()">重置</button>
+<hr style="width: 100%;margin-bottom: 1em;"/>
 <button class="checkbtn" (click)="doCheck()">批改</button>
+<button class="resetbtn" (click)="doReset()">重置</button>
