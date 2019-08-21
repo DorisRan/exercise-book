@@ -1,5 +1,3 @@
-<ul class="equations">
-    <li *ngFor="let equation of equations">
-        <app-equation [equation]="equation"></app-equation>
-    </li>
-</ul>
+<div class="equations" *ngFor="let equation of equations">
+    <app-equation [equation]="equation"></app-equation>
+</div>

@@ -43,12 +43,30 @@ export const DELESSIONS: DeLession[] = [
             ["ninety", "90"],
             ["one hundred", "100"],
             ["dallor", "美元 $"]
-        ]),
+            ]),
         sPattern: [
             "How much is this/that?",
             "It's/That's (  ) dollars."
         ],
         phonics: new Map([
             ["th", ["mother", "father"]]])
+    },
+    {
+        vocabulary: new Map(
+            [["basketball", "篮球"],
+            ["table tennis", "乒乓球"],
+            ["tennis", "网球"],
+            ["golf", "高尔夫球"],
+            ["football", "橄榄球"],
+            ["soccer", "足球"]
+            ]),
+        sPattern: [
+            "What sport do you play?",
+            "I play (   )."
+        ],
+        phonics: new Map([
+            ["pl", ["plan", "plus"]],
+            ["bl", ["block", "black"]],
+            ["cl", ["club", "clap"]]])
     },
 ];

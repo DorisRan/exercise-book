@@ -1,13 +1,5 @@
 .equations {
-    margin: 0em 0em 0em 3em;
+    margin: 0em 0em 1em 1em;
     list-style-type: none;
     padding: 0;
 }
-
-.equations li {
-    cursor: pointer;
-    position: relative;
-    left: 0;
-    margin-bottom: 0.5em;
-    height: 1.6em;
-  }
