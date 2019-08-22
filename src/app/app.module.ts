@@ -8,6 +8,8 @@ import { EquationPanelComponent } from './equation-panel/equation-panel.componen
 import { EquationComponent } from './equation/equation.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EnglishBookComponent } from './english-book/english-book.component';
+import { ChPhonicsComponent } from './ch-phonics/ch-phonics.component';
+import { ChineseBookComponent } from './chinese-book/chinese-book.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { EnglishBookComponent } from './english-book/english-book.component';
     MathBookComponent,
     EquationPanelComponent,
     EquationComponent,
-    EnglishBookComponent
+    EnglishBookComponent,
+    ChPhonicsComponent,
+    ChineseBookComponent
   ],
   imports: [
     BrowserModule,

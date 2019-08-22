@@ -1,8 +1,8 @@
 <div class="area">
     <label class="title">词汇：</label>
     <ul class="content">
-        <li *ngFor="let word of lesson.vocabulary.entries()">
-            {{word[0]}} : {{word[1]}}
+        <li *ngFor="let word of lesson.vocabulary | keyvalue">
+            {{word.key}} : {{word.value}}
         </li>
     </ul>
 </div>
@@ -17,8 +17,8 @@
 <div class="area">
     <label class="title">自然拼读：</label>
     <ul class="content">
-        <li *ngFor="let pMap of lesson.phonics.entries()">
-            {{pMap[0]}} -> {{pMap[1]}}
+        <li *ngFor="let pMap of lesson.phonics | keyvalue">
+            {{pMap.key}} -> {{pMap.value}}
         </li>
     </ul>
 </div>

@@ -1,0 +1,10 @@
+.phonicspanel {
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+}
+.thymePanel {
+    display: inline-block;
+    width:calc(100% - 60px);
+    vertical-align: top;
+}

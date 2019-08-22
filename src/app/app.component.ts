@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ChRhymes } from './common/mock-ch-rhyme';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +7,11 @@ import { ChRhymes } from './common/mock-ch-rhyme';
 })
 export class AppComponent {
   title = 'exercise-book';
-  chRhyme : string;
 
   ngOnInit() {
-    var index = Math.round (Math.random()* ChRhymes.length)
-    this.chRhyme = index >= ChRhymes.length? ChRhymes[index-1]:ChRhymes[index];
+  }
+
+  getScope():Array<number> {
+    return new Array(10);
   }
 }
