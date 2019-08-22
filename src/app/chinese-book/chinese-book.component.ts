@@ -8,26 +8,33 @@ import { CHCharacter } from '../common/ch-character';
   styleUrls: ['./chinese-book.component.css']
 })
 export class ChineseBookComponent implements OnInit {
-
   characters: Array<CHCharacter>;
   chRhyme: string;
 
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-   
+
     this.http.get('assets/chinese.json')
       .subscribe(data => {
+        var frequency = data["frequency"];
+
         var chList = data["characters"];
-          this.characters = new Array<CHCharacter>(chList.length);
-        for (var i = 0; i < chList.length && i< 10; i++) {
-          var ch = chList[i];
-          this.characters[i] = new CHCharacter(ch['pinying'], ch['hanzi']);
+        this.characters = new Array<CHCharacter>(frequency);
+        var i0 = Math.round(Math.random() * chList.length);
+
+        for (var counter = 0; counter < frequency; counter++) {
+          if (i0 >= chList.length) {
+            i0 = 0;
+          }
+          var ch = chList[i0];
+          this.characters[counter] = new CHCharacter(ch[0], ch[1]);
+          i0++;
         }
 
         var rhymeList = data["rhymes"];
-        var index = Math.round(Math.random() * rhymeList.length)
-        this.chRhyme = index >= rhymeList.length ? rhymeList[index - 1] : rhymeList[index];
+        var i1 = Math.round(Math.random() * rhymeList.length)
+        this.chRhyme = i1 >= rhymeList.length ? rhymeList[i1 - 1] : rhymeList[i1];
       });
   }
 

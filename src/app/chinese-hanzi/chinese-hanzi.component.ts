@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { PinYing } from '../common/mock-ch-rhyme';
 import { CHCharacter } from '../common/ch-character';
 
 @Component({
