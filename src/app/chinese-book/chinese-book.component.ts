@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChRhymes, PinYing } from '../common/mock-ch-rhyme';
+import { HttpClient } from '@angular/common/http';
+import { CHCharacter } from '../common/ch-character';
 
 @Component({
   selector: 'app-chinese-book',
@@ -7,17 +8,27 @@ import { ChRhymes, PinYing } from '../common/mock-ch-rhyme';
   styleUrls: ['./chinese-book.component.css']
 })
 export class ChineseBookComponent implements OnInit {
-  
-  chRhyme : string;
-  pinying: string;
 
-  constructor() { }
+  characters: Array<CHCharacter>;
+  chRhyme: string;
+
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    var index = Math.round (Math.random()* ChRhymes.length)
-    this.chRhyme = index >= ChRhymes.length? ChRhymes[index-1]:ChRhymes[index];
-    index = Math.round (Math.random()* PinYing.length)
-    this.pinying = index >= PinYing.length? PinYing[index-1]:PinYing[index];
+   
+    this.http.get('assets/chinese.json')
+      .subscribe(data => {
+        var chList = data["characters"];
+          this.characters = new Array<CHCharacter>(chList.length);
+        for (var i = 0; i < chList.length && i< 10; i++) {
+          var ch = chList[i];
+          this.characters[i] = new CHCharacter(ch['pinying'], ch['hanzi']);
+        }
+
+        var rhymeList = data["rhymes"];
+        var index = Math.round(Math.random() * rhymeList.length)
+        this.chRhyme = index >= rhymeList.length ? rhymeList[index - 1] : rhymeList[index];
+      });
   }
 
 }

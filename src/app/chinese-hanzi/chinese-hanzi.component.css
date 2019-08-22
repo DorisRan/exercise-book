@@ -1,0 +1,48 @@
+
+.hanzipanel {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    z-index: -1;
+}
+
+.hanzi {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.tlbox {
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px dashed lightgray;  border-bottom: none; border-right: none;
+}
+.trbox {
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px dashed lightgray;  border-bottom: none;
+}
+.blbox {
+    float: left;
+    clear: left;
+    width: 28px;
+    height: 28px;
+    border: 1px dashed lightgray;border-right:none;
+}
+
+.brbox {
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px dashed lightgray;
+}

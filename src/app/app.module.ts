@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EnglishBookComponent } from './english-book/english-book.component';
 import { ChPhonicsComponent } from './ch-phonics/ch-phonics.component';
 import { ChineseBookComponent } from './chinese-book/chinese-book.component';
+import { ChineseHanziComponent } from './chinese-hanzi/chinese-hanzi.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ChineseBookComponent } from './chinese-book/chinese-book.component';
     EquationComponent,
     EnglishBookComponent,
     ChPhonicsComponent,
-    ChineseBookComponent
+    ChineseBookComponent,
+    ChineseHanziComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
