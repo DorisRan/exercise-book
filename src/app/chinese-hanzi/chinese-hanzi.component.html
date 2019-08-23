@@ -1,10 +1,8 @@
-<div class="outbox">
-    <div class="pinyingpanel">
-        <app-ch-phonics [pinying]="character.pinying"></app-ch-phonics>
-    </div>
-    <div class="hanzipanel">
-        <div class="hanzi">{{character.hanzi}}</div>
-        <div class="box">
+<div>
+    <div class="outbox" *ngFor="let hanzi of hanziList; let i=index">
+        <app-ch-phonics [pinying]="pinyingList[i]"></app-ch-phonics>
+        <div class="hanzi">{{hanzi}}</div>
+        <div class="hanzibox">
             <div class="tlbox"></div>
             <div class="trbox"></div>
             <div class="blbox"></div>

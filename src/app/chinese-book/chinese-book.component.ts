@@ -15,7 +15,7 @@ export class ChineseBookComponent implements OnInit {
 
   ngOnInit() {
 
-    this.http.get('assets/chinese.json')
+    this.http.get('assets/materials/chinese.json')
       .subscribe(data => {
         var frequency = data["frequency"];
 

@@ -1,18 +1,18 @@
 .phonicspanel{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 .linebox{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     z-index: -1;
 }
 .wline {
-    width:60px; height:1px;border:none;border-top:1px dashed lightgray;
+    width:80px; height:1px;border:none;border-top:1px dashed lightgray;
 }
 .phonics {
-    width: 60px;
+    width: 80px;
     margin: 0 0 0 0;
     position: absolute;
     vertical-align: center;
