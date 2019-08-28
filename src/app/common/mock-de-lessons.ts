@@ -69,4 +69,21 @@ export const DELESSIONS: DeLession[] = [
             ["bl", ["block", "black"]],
             ["cl", ["club", "clap"]]])
     },
+    {
+        vocabulary: new Map(
+            [["listen to music", "听音乐"],
+            ["read books", "看书"],
+            ["watch TV", "看电视"],
+            ["write stories", "写故事"],
+            ["play video games", "玩电子游戏"]
+            ]),
+        sPattern: [
+            "What do you like to do?",
+            "I like to (   )."
+        ],
+        phonics: new Map([
+            ["tr", ["trip", "truck"]],
+            ["dr", ["drum", "drink"]],
+            ["br", ["brush", "bring"]]])
+    },
 ];
