@@ -1,4 +1,4 @@
-<div class="area">
+<!-- <div class="area">
     <label class="title">词汇：</label>
     <ul class="content">
         <li *ngFor="let word of lesson.vocabulary | keyvalue">
@@ -21,4 +21,13 @@
             {{pMap.key}} -> {{pMap.value}}
         </li>
     </ul>
+</div> -->
+
+<!-- <hr style="height:1px;border:none;border-top:1px dashed lightgray;"/> -->
+<div class="thymePanel">
+    <p style="margin: 0.4em 0.5em 0 0.5em; text-align:center; text-decoration:underline; font:bold">{{rhymeName}}</p>
+    <div class="hanzipanel" *ngFor="let line of content">
+        <p style="margin: 0.4em 0.5em 0 0.5em; text-align:center">{{line}}</p>
+    </div>
+    <p style="margin: 0.4em 0.5em 0 0.5em; text-align:center; color: lightgrey; font-size:medium">-- by {{author}}</p>
 </div>

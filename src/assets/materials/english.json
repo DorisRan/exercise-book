@@ -1,0 +1,203 @@
+{
+    "rhymes": [
+        {
+            "name": "Rain",
+            "content": [
+                "Rain is falling all around,",
+                "It falls on field and tree,",
+                "It rains on the unbrella here,",
+                "And on the ships at sea."],
+            "author": "R. L. Stevenson"
+        },
+        {
+            "name": "What Does The Bee Do?",
+            "content": [
+                "What does the bee do?",
+                "Bring home honey.",
+                "And what does Father do?",
+                "Bring home money.",
+                "And what does Mother do?",
+                "Lay out the money.",
+                " And what baby do?",
+                "Eat up the honey."
+            ],
+            "author": "C. G. Rossetti"
+        },
+        {
+            "name":"O Sailor, Come Ashore!",
+            "content": [
+                "O sailor, come ashore!",
+                "What have you brought for me?",
+                "Red coral, white coral,",
+                "Coral from the sea.",
+                ".",
+                "I did not dig it from the groud,",
+                "Nor pluck it from a tree;",
+                "Feeble insecrets made it,",
+                "In the stormy sea."
+            ],
+            "author": "C. G. Rossetti"
+        },
+        {
+            "name":"The Wind",
+            "content": [
+                "Who has seen the wind?",
+                "Neither I nor you;",
+                "But when the leaves hang trembling,",
+                "The Wind is passing throug.",
+                "'",
+                "Who has seen the wind?",
+                "Neither you nor I;", 
+                "But when the trees bow down their heads,",
+                "The wind is passing by."],
+            "author":"C. G. Rossetti"
+        },
+        {
+            "name":"The Cuckoo",
+            "content":[
+                "In April,",
+                "Come he will,",
+                "In May,",
+                "Sing all day,",
+                "In June,",
+                "Change his tune,",
+                "In July,",
+                "Prepare to fly,",
+                "In August,",
+                "Go he must!"],
+            "author":"Mother Goose's Nursery Rhyme"
+        },
+        {
+            "name":"Colors",
+            "content":[
+                "What is pink? A rose is pink,",
+                "By the fountain's brink.",
+                "What is red? a poppy's red,",
+                "In its barley bed.",
+                "What is blue? the sky is blue,",
+                "Where the clouds float through.",
+                "What is white? A swan is white,",
+                "Sailing in the light.",
+                "What is yellow? Pears are yellow,",
+                "Rich and ripe and mellow.",
+                "What is green? The grass is green,",
+                "With small flowers between.",
+                "What is orange? Why, an orange,",
+                "Just an orange!"
+            ],
+            "author":"C. G. Rossetti"
+        },
+        {
+            "name" : "A House Of Cards",
+            "content":[
+                "A house of cards,",
+                "Is neat and small;",
+                "Shake the table,",
+                "It must fall.",
+                ".",
+                "Find the court cards,",
+                "One by one;",
+                "Raise it, roof it,",
+                "Now it's done;",
+                "Shake the tables!",
+                "That's the fun."
+            ],
+            "author":"C. G. Rossetti"
+        },
+        {
+            "name":"What Does Little Birdie Say?",
+            "content":[
+                "What does little birdie say,",
+                "In her nest at peep of day?",
+                "Let me fly, says little birdie,",
+                "Mother, let me fly away.",
+                "Birdie, rest a little longer,",
+                "Till the little wings are stronger.",
+                "So she rests a little longer,",
+                "The she flies away.",
+                ".",
+                "What does little baby say,",
+                "In her bed at peep of day?",
+                "Baby says, like little birdie,",
+                "Let me rise and fly away.",
+                "Baby, sleep a little longer,",
+                "Till the little limbs are are stronger.",
+                "If she sleeps a little longer,",
+                "Baby too shall fly away."
+            ],
+            "author":"Alfred Tennyson"
+        },
+        {
+            "name":"The Star",
+            "content":[
+                "Twinkle, twinkle, little star!",
+                "How I wonder what you are,",
+                "Up above the world so high,",
+                "Like a diamond in the sky.",
+                "When the blazing sun is gone,",
+                "When he nothing shines upon,",
+                "Then you show your little light,",
+                "Twinkle, twinkle all the night.", 
+                "The dark blue sky you keep,",
+                "And often thro' my curtains peep,",
+                "For you never shut your eye,",
+                "Till the sun is in the sky.",
+                "Tis your bright and tiny spark,",
+                "Lights the traveler in the dark,",
+                "Though I know not what you are,",
+                "Twinkle, twinkle, little star!"
+            ],
+            "author":"Jane Taylor"
+        },
+        {
+            "name":"At The Seaside",
+            "content":[
+                "When I was down beside the sea,",
+                "A wooden spade they gave to me,",
+                "To dig the sandy shore.",
+                ".",
+                "The holes were empty like a cup,",
+                "In every hole the sea camp up,",
+                "Till it could come no more."
+            ],
+            "author":"R. L. Stevenson"
+        },
+        {
+            "name":"Boats Sail On The Rivers",
+            "content":[
+                "Boats sail on the rivers,",
+                "And ships sail on the seas,",
+                "But clouds that sail across the sky,",
+                "Are prettier far than these.",
+                ".",
+                "There are bridges on the river,",
+                "As pretty as you please,",
+                "But the bow that bridges heaven,",
+                "And overtips the trees,",
+                "And builds a road from earth to sky,",
+                "Is prettier far than these."
+            ],
+            "author":"C. G. Rossetti"
+        },
+        {
+            "name":"The Swing",
+            "content":[
+                "How do you like to go up in a swing,",
+                "Up in the air so blue?",
+                "Oh, I do think it the pleasantest thing,",
+                "Ever a child can do.",
+                ".",
+                "Up in the air and over the wall,",
+                "Till I can see so wide,",
+                "River and trees and cattle and all,",
+                "Over the countryside.",
+                ".",
+                "Till I look down on the garden green,",
+                "Down on the roof so brown,",
+                "Up in the air I go flying again,",
+                "Up in the air and down!"
+            ],
+            "author":"R. L. Stevenson"
+        }
+    ]
+}
